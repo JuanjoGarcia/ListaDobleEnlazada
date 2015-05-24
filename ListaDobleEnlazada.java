@@ -1,9 +1,9 @@
 public class ListaDobleEnlazada {
 	 
-	class Node {
-	    int data;
-	    Node next;
-	    Node prev;
+	public class Node {
+	    public int data;
+	    public Node next;
+	    public Node prev;
 	    Node(int numeroDato){
 	        this.data = numeroDato;
 	        this.next = null;
@@ -11,8 +11,8 @@ public class ListaDobleEnlazada {
 	    }
 	}
 	
-	Node first;
-    Node last;
+	public Node first;
+    	public Node last;
     
     ListaDobleEnlazada(){
         first = null;
